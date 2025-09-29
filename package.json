@@ -11,8 +11,6 @@
     "@aws-sdk/client-rekognition": "^3.357.0",
     "@carbon/charts-react": "^1.11.21",
     "@carbon/styles": "^1.36.0",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
     "@mui/icons-material": "^5.11.0",
