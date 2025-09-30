@@ -27,7 +27,7 @@
     "date-fns": "^2.29.3",
     "jest": "^27.5.1",
     "lucide-react": "^0.268.0",
-    "mapbox-gl": "^2.15.0",
+    "mapbox-gl": "^3.15.0",
     "mixpanel-browser": "^2.49.0",
     "moment-timezone": "^0.5.40",
     "react": "^18.2.0",
@@ -55,18 +55,14 @@
     "start:prod": "env-cmd -f .env.prod react-scripts start",
     "build": "react-scripts build"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all",
+    "not chrome < 56",
+    "not safari < 15",
+    "not android < 56"
+  ],
   "devDependencies": {
     "env-cmd": "^10.1.0",
     "tailwindcss": "^3.2.4"
