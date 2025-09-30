@@ -1,4 +1,4 @@
-import mapboxgl from "mapbox-gl";
+import mapboxgl from 'mapbox-gl';
 import { useRef, useEffect, useState, useMemo } from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import axios from "axios";
